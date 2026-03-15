@@ -1,9 +1,23 @@
 # BA-RAW-TEXT
 
-A collection of raw text for use in the [BA-TL-TEXT](https://github.com/Special-Operation-Decagrammaton/BA-TL-TEXT) project.
+Raw text assets for the [BA-TL-TEXT](https://github.com/Special-Operation-Decagrammaton/BA-TL-TEXT) project.
 
-This branch data has been compiled and filtered to only show content that has not yet been translated in Global localization.
+### 📌 Main Branch
+The `main` branch contains data filtered to show content **not yet translated** in the Global version. It is structurally similar to the `JP-JP` branch.
 
-For full fledged JP and GL localization, see [JP](https://github.com/Special-Operation-Decagrammaton/BA-RAW-TEXT/tree/jp) branch and [GL](https://github.com/Special-Operation-Decagrammaton/BA-RAW-TEXT/tree/gl) branch.
+### 🌐 Localization Branches
+Full localization dumps are stored in independent branches using the format `{client}-{language}`.
 
-If you want to translate and contribute, please see [BA-TL-TEXT](https://github.com/Special-Operation-Decagrammaton/BA-TL-TEXT) and read the [wiki](https://github.com/Special-Operation-Decagrammaton/BA-TL-TEXT/wiki) for more information.
+**Examples:**
+* `GL-EN`: Global Client - English
+* `GL-TW`: Global Client - Traditional Chinese
+* `JP-KR`: JP Client - Korean
+* `JP-JP`: JP Client - Japanese
+
+> **Note:** Korean (`KR`) has separate branches for JP and Global clients because their scripts and data structures differ.
+
+### ✍️ Contributing
+To contribute translations, please visit [BA-TL-TEXT](https://github.com/Special-Operation-Decagrammaton/BA-TL-TEXT) and check the [wiki](https://github.com/Special-Operation-Decagrammaton/BA-TL-TEXT/wiki).
+
+---
+*For a full list of available dumps, see [all branches](https://github.com/Special-Operation-Decagrammaton/BA-RAW-TEXT/branches/all).*
